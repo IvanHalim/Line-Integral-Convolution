@@ -1,0 +1,114 @@
+﻿  learnply.cpp
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(24,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(29,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(55,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(56,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(112,20): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(113,20): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(114,20): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(123,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(123,18): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(123,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(144,14): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(147,18): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(147,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(147,12): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(148,45): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(148,33): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(148,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(149,39): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(149,29): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(149,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(169,14): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(172,18): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(172,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(172,12): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(174,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(175,55): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(175,40): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(175,25): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(176,49): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(176,36): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(176,23): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(199,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(200,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(201,19): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(255,50): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(256,50): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(297,26): warning C4305: '=': truncation from 'double' to 'GLfloat'
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(309,44): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(309,28): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(324,55): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(324,35): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(324,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(325,63): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(325,39): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(325,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(370,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(417,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(464,45): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(464,34): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(464,23): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(485,15): warning C4101: 'i': unreferenced local variable
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(486,10): warning C4101: 'mat_diffuse': unreferenced local variable
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(554,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(555,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(603,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(604,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(816,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(817,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(878,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(878,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(1182,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(1780,34): warning C4244: 'argument': conversion from 'double' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(1784,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(1237,6): warning C4101: 'i': unreferenced local variable
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2015,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2055,43): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2055,32): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2055,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2103,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2129,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2132,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2133,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2134,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2158,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2161,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2162,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2163,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2187,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2190,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2191,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2192,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\utility(192,1): warning C4244: 'initializing': conversion from 'double' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty2=float
+          ]
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(1416): message : see reference to function template instantiation 'std::pair<PolyLine,float>::pair<PolyLine&,double&,0>(_Other1,_Other2) noexcept(false)' being compiled
+          with
+          [
+              _Other1=PolyLine &,
+              _Other2=double &
+          ]
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(1416): message : see reference to function template instantiation 'std::pair<PolyLine,float>::pair<PolyLine&,double&,0>(_Other1,_Other2) noexcept(false)' being compiled
+          with
+          [
+              _Other1=PolyLine &,
+              _Other2=double &
+          ]
+  polyhedron.cpp
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\polyhedron.cpp(185,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\polyhedron.cpp(766,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\polyhedron.cpp(810,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\polyhedron.cpp(821,111): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\polyhedron.cpp(835,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\polyhedron.cpp(844,17): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+learnply.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  learnply.vcxproj -> C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\..\Debug\learnply.exe
+  0 File(s) copied
