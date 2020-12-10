@@ -1012,6 +1012,160 @@ icVector3 getDir(double x, double y, double z) {
 	return icVector3(dir_x, dir_y, 0);
 }
 
+void compute_white_noise() {
+	for (int i = 0; i < poly->nverts; i++) {
+		poly->vlist[i]->scalar = rand() % 256;
+	}
+}
+
+double getScalar(double x, double y) {
+	//find the quad it is in
+	Quad *q = NULL;
+	double x1, x2, y1, y2;
+	for (int i = 0; i < poly->nquads; i++) {
+		q = poly->qlist[i];
+
+		x1 = x2 = q->verts[0]->x;
+		y1 = y2 = q->verts[0]->y;
+
+		//similar to how did we find the x1,x2,y1,y2 in hw2
+		for (int j = 0; j < 4; j++) {
+
+			// x1 is the smallest x coordinate of the 4 verts
+			if (q->verts[j]->x < x1) {
+				x1 = q->verts[j]->x;
+			}
+
+			// x2 is the biggest x coordinate of the 4 verts
+			if (q->verts[j]->x > x2) {
+				x2 = q->verts[j]->x;
+			}
+
+			// y1 is the smallest y coordinate of the 4 verts
+			if (q->verts[j]->y < y1) {
+				y1 = q->verts[j]->y;
+			}
+
+			// y2 is the biggest y coordinate of the 4 verts
+			if (q->verts[j]->y > y2) {
+				y2 = q->verts[j]->y;
+			}
+		}
+
+		if (x <= x2 && x >= x1 && y <= y2 && y >= y1) {
+			break;
+		}
+	}
+
+	//find the k, which corresponds to the vertex with x1 and y1,
+	int k;
+	for (int i = 0; i < 4; i++) {
+		if (q->verts[i]->x == x1 && q->verts[i]->y == y1) {
+			k = i;
+		}
+	}
+
+	double fx1y1 = q->verts[k]->scalar;
+	double fx2y1 = q->verts[(k+1)%4]->scalar;
+	double fx2y2 = q->verts[(k+2)%4]->scalar;
+	double fx1y2 = q->verts[(k+3)%4]->scalar;
+
+	double fx0y0 = ((x2-x)/(x2-x1))*((y2-y)/(y2-y1))*fx1y1 +\
+					((x-x1)/(x2-x1))*((y2-y)/(y2-y1))*fx2y1 +\
+					((x2-x)/(x2-x1))*((y-y1)/(y2-y1))*fx1y2 +\
+					((x-x1)/(x2-x1))*((y-y1)/(y2-y1))*fx2y2;
+	
+	return fx0y0;
+}
+
+double kernel(double x) {
+	// Gaussian Kernel
+	return 1 / sqrt(2 * PI) * exp(-1/2 * x*x);
+}
+
+double weighted_average(std::vector<double> scalars) {
+	double step = 2 * 1.96 / (scalars.size()-1);
+	double x = -1.96;
+	double weighted_sum = 0;
+	double total_weights = 0;
+
+	for (int i = 0; i < scalars.size(); i++) {
+		weighted_sum += kernel(x) * scalars[i];
+		total_weights += kernel(x);
+		x += step;
+	}
+
+	return weighted_sum / total_weights;
+}
+
+double extract_line_integral(double x, double y, double z) {
+	double step = 0.01;		// test the effect of different step
+	int count = 200;		// the times of tracing
+	double c_x = x;			// save the start position
+	double c_y = y;
+	double c_z = z;
+
+	std::vector<double> scalars;
+	scalars.pushback(getScalar(c_x, c_y, c_z));
+
+	//tracing forward
+	for (int i = 0; i < count; i++) {
+		
+		//1. check whether cx, cy, cz inside the mesh, you need to calculate the maximum and minimum of the x and y coordinate first
+		if (c_x > poly->maxx || c_x < poly->minx || c_y > poly->maxy || c_y < poly->miny)
+			break;
+
+		//2. get the dir at cx, cy, cz
+		icVector3 start = icVector3(c_x, c_y, c_z);
+		icVector3 dir = getDir(c_x, c_y, c_z);		//write your own function to get the direction at location (x, y, z)
+		normalize(dir);
+		icVector3 end = start + dir * step;
+
+		//3. update the cx, cy, cz
+		c_x = end.x;
+		c_y = end.y;
+		c_z = end.z;
+
+		//4. check whether cx, cy, cz inside the mesh, if not then create the lineSegment and save it in contour with using below codes
+		if (c_x > poly->maxx || c_x < poly->minx || c_y > poly->maxy || c_y < poly->miny)
+			break;
+
+		scalars.pushback(getScalar(end.x, end.y, end.z));
+	}
+
+	// reset the start position
+	c_x = x;
+	c_y = y;
+	c_z = z;
+
+	//tracing backward
+	for (int i = 0; i < count; i++) {
+		// same as tracing forward, except that the direction is reversed.
+		//1. check whether cx, cy, cz inside the mesh, you need to calculate the maximum and minimum of the x and y coordinate first
+		if (c_x > poly->maxx || c_x < poly->minx || c_y > poly->maxy || c_y < poly->miny)
+			break;
+
+		//2. get the dir at cx, cy, cz
+		icVector3 start = icVector3(c_x, c_y, c_z);
+		icVector3 dir = -getDir(c_x, c_y, c_z);		//write your own function to get the direction at location (x, y, z)
+		normalize(dir);
+		icVector3 end = start + dir * step;
+
+		//3. update the cx, cy, cz
+		c_x = end.x;
+		c_y = end.y;
+		c_z = end.z;
+
+		//4. check whether cx, cy, cz inside the mesh, if not then create the lineSegment and save it in contour with using below codes
+		if (c_x > poly->maxx || c_x < poly->minx || c_y > poly->maxy || c_y < poly->miny)
+			break;
+			
+		scalars.insert(sum.begin(), getScalar(end.x, end.y, end.z));
+	}
+
+	return weighted_average(scalars);
+}
+
 void extract_streamline(double x, double y, double z, PolyLine &contour) {
 
 	double step = 0.01;		// test the effect of different step
@@ -1254,10 +1408,8 @@ void keyboard(unsigned char key, int x, int y) {
 
 	case '2':
 		display_mode = 2;
-		for (int i = 0; i < poly->nverts; i++) {
-			Vertex* temp_v = poly->vlist[i];
-			temp_v->z = 0;
-		}
+		compute_white_noise();
+		
 		glutPostRedisplay();
 		break;
 

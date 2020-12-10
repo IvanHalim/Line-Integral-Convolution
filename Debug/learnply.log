@@ -1,114 +1,199 @@
 ﻿  learnply.cpp
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(24,28): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(29,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(55,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(56,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(112,20): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(113,20): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(114,20): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(123,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(123,18): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(123,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(144,14): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(147,18): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(147,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(147,12): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(148,45): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(148,33): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(148,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(149,39): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(149,29): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(149,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(169,14): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(172,18): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(172,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(172,12): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(174,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(175,55): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(175,40): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(175,25): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(176,49): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(176,36): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(176,23): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(199,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(200,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(201,19): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(255,50): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(256,50): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(297,26): warning C4305: '=': truncation from 'double' to 'GLfloat'
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(309,44): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(309,28): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(324,55): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(324,35): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(324,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(325,63): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(325,39): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(325,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(370,16): warning C4018: '<': signed/unsigned mismatch
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(417,16): warning C4018: '<': signed/unsigned mismatch
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(464,45): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(464,34): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(464,23): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(485,15): warning C4101: 'i': unreferenced local variable
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(486,10): warning C4101: 'mat_diffuse': unreferenced local variable
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(554,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(555,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(603,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(604,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(816,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(817,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(878,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(878,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(1182,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(1780,34): warning C4244: 'argument': conversion from 'double' to 'const _Ty', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(24,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(29,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(55,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(56,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(112,20): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(113,20): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(114,20): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(123,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(123,18): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(123,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(144,14): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(147,18): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(147,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(147,12): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(148,45): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(148,33): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(148,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(149,39): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(149,29): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(149,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(169,14): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(172,18): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(172,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(172,12): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(174,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(175,55): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(175,40): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(175,25): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(176,49): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(176,36): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(176,23): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(199,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(200,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(201,19): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(255,50): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(256,50): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(297,26): warning C4305: '=': truncation from 'double' to 'GLfloat'
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(309,44): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(309,28): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(324,55): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(324,35): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(324,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(325,63): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(325,39): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(325,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(370,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(417,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(464,45): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(464,34): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(464,23): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(485,15): warning C4101: 'i': unreferenced local variable
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(486,10): warning C4101: 'mat_diffuse': unreferenced local variable
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(554,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(555,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(603,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(604,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(816,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(817,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(878,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(878,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(1182,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(1780,34): warning C4244: 'argument': conversion from 'double' to 'const _Ty', possible loss of data
           with
           [
               _Ty=float
           ]
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(1784,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(1237,6): warning C4101: 'i': unreferenced local variable
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2015,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2055,43): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2055,32): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2055,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2103,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2129,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2132,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2133,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2134,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2158,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2161,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2162,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2163,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2187,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2190,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2191,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(2192,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(1784,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(1237,6): warning C4101: 'i': unreferenced local variable
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(2015,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(2055,43): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(2055,32): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(2055,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(2103,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(2129,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(2132,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(2133,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(2134,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(2158,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(2161,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(2162,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(2163,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(2187,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(2190,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(2191,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(2192,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\utility(192,1): warning C4244: 'initializing': conversion from 'double' to '_Ty2', possible loss of data
           with
           [
               _Ty2=float
           ]
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(1416): message : see reference to function template instantiation 'std::pair<PolyLine,float>::pair<PolyLine&,double&,0>(_Other1,_Other2) noexcept(false)' being compiled
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(1416): message : see reference to function template instantiation 'std::pair<PolyLine,float>::pair<PolyLine&,double&,0>(_Other1,_Other2) noexcept(false)' being compiled
           with
           [
               _Other1=PolyLine &,
               _Other2=double &
           ]
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\learnply.cpp(1416): message : see reference to function template instantiation 'std::pair<PolyLine,float>::pair<PolyLine&,double&,0>(_Other1,_Other2) noexcept(false)' being compiled
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\learnply.cpp(1416): message : see reference to function template instantiation 'std::pair<PolyLine,float>::pair<PolyLine&,double&,0>(_Other1,_Other2) noexcept(false)' being compiled
           with
           [
               _Other1=PolyLine &,
               _Other2=double &
           ]
+  ply.cpp
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(175,18): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(214,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(217,7): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(221,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(207,15): warning C4101: 'elem': unreferenced local variable
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(205,7): warning C4101: 'i': unreferenced local variable
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(350,7): warning C4101: 'i': unreferenced local variable
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(352,16): warning C4101: 'prop': unreferenced local variable
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(476,7): warning C4101: 'i': unreferenced local variable
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(672,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(707,16): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(747,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(750,7): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(754,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(1080,17): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(1206,22): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(1321,7): warning C4101: 'i': unreferenced local variable
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(1358,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(1360,7): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(1528,8): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(1427,7): warning C4101: 'i': unreferenced local variable
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(1562,7): warning C4101: 'i': unreferenced local variable
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(1714,9): warning C4101: 'j': unreferenced local variable
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(1714,7): warning C4101: 'i': unreferenced local variable
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(1926,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(2035,18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(2036,19): warning C4244: '=': conversion from 'double' to 'unsigned int', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(2040,18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(2041,19): warning C4244: '=': conversion from 'double' to 'unsigned int', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(2117,18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(2118,19): warning C4244: '=': conversion from 'double' to 'unsigned int', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(2123,18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(2124,19): warning C4244: '=': conversion from 'double' to 'unsigned int', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(2242,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(2270,16): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(2339,18): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(2345,18): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(2350,18): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(2328,7): warning C4101: 'count_type': unreferenced local variable
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(2327,7): warning C4101: 'prop_type': unreferenced local variable
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(2417,16): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(2531,16): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(2557,38): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(2597,38): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(2776,7): warning C4101: 'i': unreferenced local variable
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(2778,16): warning C4101: 'prop': unreferenced local variable
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(3061,7): warning C4101: 'count': unreferenced local variable
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(3060,7): warning C4101: 'i': unreferenced local variable
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\ply.cpp(3270,9): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
   polyhedron.cpp
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\polyhedron.cpp(185,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\polyhedron.cpp(766,16): warning C4018: '<': signed/unsigned mismatch
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\polyhedron.cpp(810,16): warning C4018: '<': signed/unsigned mismatch
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\polyhedron.cpp(821,111): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\polyhedron.cpp(835,16): warning C4018: '<': signed/unsigned mismatch
-C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\polyhedron.cpp(844,17): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\polyhedron.cpp(185,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\polyhedron.cpp(766,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\polyhedron.cpp(810,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\polyhedron.cpp(821,111): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\polyhedron.cpp(835,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\polyhedron.cpp(844,17): warning C4018: '<': signed/unsigned mismatch
+  tmatrix.cpp
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\tmatrix.cpp(165,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\tmatrix.cpp(166,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\tmatrix.cpp(167,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\tmatrix.cpp(168,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  trackball.cpp
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(109,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(110,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(111,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(124,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(125,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(126,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(175,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(187,19): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(233,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(354,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(406,65): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(407,65): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(418,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(424,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(437,19): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(438,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(450,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(452,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(455,9): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(478,6): warning C4101: 'i': unreferenced local variable
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(536,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(537,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(538,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(541,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(542,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(543,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(546,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(547,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\trackball.cpp(548,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   Generating Code...
 learnply.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
-  learnply.vcxproj -> C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\learnply\..\Debug\learnply.exe
+  learnply.vcxproj -> C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\learnply\..\Debug\learnply.exe
   0 File(s) copied

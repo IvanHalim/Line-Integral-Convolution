@@ -2,3 +2,5 @@ C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 2\learnply_2020_v2\
 C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 2\learnply_2020_v2\Debug\learnply.pdb
 C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\Debug\learnply.exe
 C:\Users\ivani\Documents\Assignment\Fall 2020\CS-453\Project 3\Debug\learnply.pdb
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\Debug\learnply.exe
+C:\Users\ivani\Documents\GitHub\Line-Integral-Convolution\Debug\learnply.pdb
