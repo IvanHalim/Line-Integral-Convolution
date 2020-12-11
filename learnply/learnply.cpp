@@ -58,6 +58,7 @@ unsigned char *pixels;
 bool showPickedPoint;
 icVector3 pickedPoint;
 PolyLine streamline_picked;
+FILE* this_file;
 
 #define DM  ((float) (1.0/(100-1.0)))
 
@@ -188,7 +189,6 @@ int main(int argc, char* argv[])
 {
 	/*load mesh from ply file*/
 	char filename[255];
-	FILE* this_file;
 
 	printf("Enter filename:\n");
 	fgets(filename, sizeof(filename), stdin);
@@ -935,6 +935,11 @@ double min, max;
 std::vector<float> scalars;
 std::vector<PolyLine> streamlines;
 
+Vertex **white_noise_vlist;
+Quad **white_noise_qlist;
+int white_noise_nverts;
+int white_noise_nquads;
+
 icVector3 getDir(double x, double y, double z) {
 
 	//find the quad it is in
@@ -1013,8 +1018,59 @@ icVector3 getDir(double x, double y, double z) {
 }
 
 void compute_white_noise() {
+
 	for (int i = 0; i < poly->nverts; i++) {
-		poly->vlist[i]->scalar = rand() % 256;
+		if (i == 0) {
+			//create minx, miny, maxx, maxy variables in Polyhedron to save the dimension
+			poly->minx = poly->vlist[i]->x;
+			poly->maxx = poly->vlist[i]->x;
+			poly->miny = poly->vlist[i]->y;
+			poly->maxy = poly->vlist[i]->y;
+		} else {
+			if (poly->vlist[i]->x < poly->minx)
+				poly->minx = poly->vlist[i]->x;
+			if (poly->vlist[i]->x > poly->maxx)
+				poly->maxx = poly->vlist[i]->x;
+			if (poly->vlist[i]->y < poly->miny)
+				poly->miny = poly->vlist[i]->y;
+			if (poly->vlist[i]->y > poly->maxy)
+				poly->maxy = poly->vlist[i]->y;
+		}
+	}
+
+	int n = 50;
+	int nverts = n * n;
+	int nquads = (n-1) * (n-1);
+	white_noise_nverts = nverts;
+	white_noise_nquads = nquads;
+
+	white_noise_vlist = new Vertex *[nverts];
+	white_noise_qlist = new Quad *[nquads];
+
+	double x = poly->minx;
+	double y = poly->miny;
+	double xstep = (poly->maxx - poly->minx) / (n-1);
+	double ystep = (poly->maxy - poly->miny) / (n-1);
+
+	for (int i = 0; i < n; i++) {
+		x = poly->minx;
+		for (int j = 0; j < n; j++) {
+			white_noise_vlist[n*i + j] = new Vertex(x, y, 0);
+			white_noise_vlist[n*i + j]->scalar = rand() % 256;
+			x += xstep;
+		}
+		y += ystep;
+	}
+
+	for (int i = 0; i < n-1; i++) {
+		for (int j = 0; j < n-1; j++) {
+			int index = (n-1) * i + j;
+			white_noise_qlist[index] = new Quad;
+			white_noise_qlist[index]->verts[0] = white_noise_vlist[i * n + j];
+			white_noise_qlist[index]->verts[1] = white_noise_vlist[i * n + j + 1];
+			white_noise_qlist[index]->verts[2] = white_noise_vlist[(i + 1) * n + j + 1];
+			white_noise_qlist[index]->verts[3] = white_noise_vlist[(i + 1) * n + j];
+		}
 	}
 }
 
@@ -1022,8 +1078,8 @@ double getScalar(double x, double y) {
 	//find the quad it is in
 	Quad *q = NULL;
 	double x1, x2, y1, y2;
-	for (int i = 0; i < poly->nquads; i++) {
-		q = poly->qlist[i];
+	for (int i = 0; i < white_noise_nquads; i++) {
+		q = white_noise_qlist[i];
 
 		x1 = x2 = q->verts[0]->x;
 		y1 = y2 = q->verts[0]->y;
@@ -1106,7 +1162,7 @@ double extract_line_integral(double x, double y, double z) {
 	double c_z = z;
 
 	std::vector<double> scalars;
-	scalars.pushback(getScalar(c_x, c_y, c_z));
+	scalars.push_back(getScalar(c_x, c_y));
 
 	//tracing forward
 	for (int i = 0; i < count; i++) {
@@ -1130,7 +1186,7 @@ double extract_line_integral(double x, double y, double z) {
 		if (c_x > poly->maxx || c_x < poly->minx || c_y > poly->maxy || c_y < poly->miny)
 			break;
 
-		scalars.pushback(getScalar(end.x, end.y, end.z));
+		scalars.push_back(getScalar(end.x, end.y));
 	}
 
 	// reset the start position
@@ -1160,7 +1216,7 @@ double extract_line_integral(double x, double y, double z) {
 		if (c_x > poly->maxx || c_x < poly->minx || c_y > poly->maxy || c_y < poly->miny)
 			break;
 			
-		scalars.insert(sum.begin(), getScalar(end.x, end.y, end.z));
+		scalars.insert(scalars.begin(), getScalar(end.x, end.y));
 	}
 
 	return weighted_average(scalars);
@@ -1169,7 +1225,7 @@ double extract_line_integral(double x, double y, double z) {
 void extract_streamline(double x, double y, double z, PolyLine &contour) {
 
 	double step = 0.01;		// test the effect of different step
-	int count = 200;		// the times of tracing
+	int count = 250;		// the times of tracing
 	double c_x = x;			// save the start position
 	double c_y = y;
 	double c_z = z;
@@ -1407,11 +1463,51 @@ void keyboard(unsigned char key, int x, int y) {
 		break;
 
 	case '2':
+	{
 		display_mode = 2;
 		compute_white_noise();
-		
+
+		for (int i = 0; i < white_noise_nverts; i++) {
+			double x, y, z;
+			x = white_noise_vlist[i]->x;
+			y = white_noise_vlist[i]->y;
+			z = white_noise_vlist[i]->z;
+			white_noise_vlist[i]->output = extract_line_integral(x, y, z);
+		}
+
+		//calculate the m and M
+		double min = white_noise_vlist[0]->output;	//m
+		double max = white_noise_vlist[0]->output;	//M
+		for (int i = 0; i < white_noise_nverts; i++) {
+			
+			Vertex* temp_v = white_noise_vlist[i];
+			double output = temp_v->output;
+
+			if (output < min) {
+				min = output;
+			}
+
+			if (output > max) {
+				max = output;
+			}
+		}
+
+		//update the colors of each vertex
+		for (int i = 0; i < white_noise_nverts; i++) {
+
+			Vertex* temp_v = white_noise_vlist[i];
+			double output = temp_v->output;		//f(v)
+
+			temp_v->R = (output - min) / (max - min);
+			temp_v->G = (output - min) / (max - min);
+			temp_v->B = (output - min) / (max - min);
+
+			//reset height
+			temp_v->z = 0;
+		}
 		glutPostRedisplay();
-		break;
+	}
+	break;
 
 	case '3':
 	{
@@ -2172,28 +2268,17 @@ void display_polyhedron(Polyhedron* poly)
 
 	case 2:
 	{
-		glDisable(GL_LIGHTING);
-		glEnable(GL_LINE_SMOOTH);
-		glHint(GL_LINE_SMOOTH_HINT, GL_NICEST);
-		glEnable(GL_BLEND);
-		glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
-		glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
-		glLineWidth(1.0);
-		for (int i = 0; i < poly->nquads; i++) {
-			Quad* temp_q = poly->qlist[i];
-
+		for (int i = 0; i < white_noise_nquads; i++) {
+			Quad* temp_q = white_noise_qlist[i];
+			glDisable(GL_LIGHTING);
 			glBegin(GL_POLYGON);
 			for (int j = 0; j < 4; j++) {
 				Vertex* temp_v = temp_q->verts[j];
-				glNormal3d(temp_q->normal.entry[0], temp_q->normal.entry[1], temp_q->normal.entry[2]);
-				glColor3f(0.0, 0.0, 0.0);
+				glColor3f(temp_v->R, temp_v->G, temp_v->B);
 				glVertex3d(temp_v->x, temp_v->y, temp_v->z);
 			}
 			glEnd();
-
 		}
-
-		glDisable(GL_BLEND);
 	}
 	break;
 

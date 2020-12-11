@@ -25,6 +25,7 @@ public:
 	double x,y,z;			/*coordinates*/
 	double vx, vy, vz;		/*vector field*/
 	double scalar = 0;		/*scalar field*/
+	double output = 0;
 
 	int vertex_type;
 
